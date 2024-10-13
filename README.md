@@ -126,6 +126,14 @@ UI Screenshots :
    ![image](https://github.com/user-attachments/assets/ea0e7968-fb89-4da5-b2c4-8ccbb4aef92c)
 4. Multiple Currency Chart:
    ![image](https://github.com/user-attachments/assets/edb447c0-da06-4863-a599-9bdbdcc0da81)
+5. Django Admin:
+   ![image](https://github.com/user-attachments/assets/724cf968-90db-4e3b-b197-1b73173bcdea)
+6. Django Admin - Currency Exchange Rate:
+   ![image](https://github.com/user-attachments/assets/f0641ee7-bcb3-4ec2-90ba-2d825eef65b6)
+7. Django Admin - Currency:
+   ![image](https://github.com/user-attachments/assets/5f9fd20b-8eb0-4847-8cea-cd5359d77b84)
+8. Django Admin - Providers:
+   ![image](https://github.com/user-attachments/assets/d05e67ef-f83d-4b7c-bb33-335494a5c778)
 
 
 ## Contributing
