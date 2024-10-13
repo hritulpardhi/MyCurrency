@@ -1,10 +1,11 @@
 # My Currency Converter
 
 - This repository contains the Currency Converter project, which includes a Django backend and a React frontend. 
-- Postman collection for your reference is pushed as well in the repository.
-- Update the settings.py with your API key for the project to work properly.
+- The postman collection for your reference has also been pushed to the repository.
+- Generate your API key from this website - https://currencybeacon.com/login
+- Update the settings.py with your API key, and Database Config for the project to work properly.
 - Note: On the First hit, the data will be fetched from the API, if the data is not present in DB. If the API call is successful, then the data will be fetched from DB for future calls. (Refer to the screenshots below)
-
+  
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
@@ -27,8 +28,6 @@
 ## Getting Started
 
 Follow these instructions to set up the project locally.
-1. Generate your api key from this website - https://currencybeacon.com/login
-2. Update the Settings.py with your db config.
 
 ### Prerequisites
 
