@@ -149,5 +149,3 @@ Contributions are welcome! Please follow these steps to contribute:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-You can copy and paste this directly into your README file. Let me know if you need any more adjustments!
