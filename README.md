@@ -124,7 +124,7 @@ UI Screenshots :
 3. Single Currency Chart:
    ![image](https://github.com/user-attachments/assets/ea0e7968-fb89-4da5-b2c4-8ccbb4aef92c)
 4. Multiple Currency Chart (Fully interactive, can zoom, download the graph, turn on/off the legends, etc.):
-   ![image](https://github.com/user-attachments/assets/8219ca92-f580-4c7d-b0c1-07a3d5ea873a)
+   ![image](https://github.com/user-attachments/assets/4e9430d3-63d9-4251-ac64-43c37b95798c)
 5. Django Admin:
    ![image](https://github.com/user-attachments/assets/724cf968-90db-4e3b-b197-1b73173bcdea)
 6. Django Admin - Currency Exchange Rate:
