@@ -34,7 +34,7 @@ Follow these instructions to set up the project locally.
 
 Make sure you have the following installed:
 
-- Python 3.x
+- Python 3.11
 - Django
 - Node.js and npm
 
