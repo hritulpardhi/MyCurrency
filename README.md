@@ -1,6 +1,7 @@
 # My Currency Converter
 
-This repository contains the Currency Converter project, which includes a Django backend and a React frontend.
+This repository contains the Currency Converter project, which includes a Django backend and a React frontend. Postman collection for your reference is pushed as well in the repository.
+Note: On the First hit, the data will be fetched from the API, if the data is not present in db. After the API call is successful, post which the data will be fetched from db. (Refer to the screenshots below)
 
 ## Table of Contents
 
@@ -85,7 +86,7 @@ Make sure you have the following installed:
 9. **Run Management Commands**:
      1. python manage.py bulk_load_currencies (Load all currency data)
      2. python manage.py set_load_historical (Set defaults for fetching the historical data)
-     3. python manage.py async_load_historical_data (For fetching and storing data in the database)
+     3. python manage.py async_load_historical_data (For fetching and storing data in the database). This management command can be configured to fetch the data from the date ranges by modifying the code. 
 
 ### Setting Up the Frontend (React)
 
@@ -113,6 +114,17 @@ Ensure that your frontend is correctly configured to make API calls to your Djan
 
 
 *Note: Replace with actual API endpoints and methods relevant to your project.*
+
+UI Screenshots :
+1. Currency List:
+   ![image](https://github.com/user-attachments/assets/fe763024-3cba-4de6-95cc-8a5e4d9ea50c)
+2. Multiple Currency Exchange:
+   ![image](https://github.com/user-attachments/assets/9abc1436-9d29-4ff6-ad21-27d035c9ddf4)
+3. Single Currency Chart:
+   ![image](https://github.com/user-attachments/assets/ea0e7968-fb89-4da5-b2c4-8ccbb4aef92c)
+4. Multiple Currency Chart:
+   ![image](https://github.com/user-attachments/assets/edb447c0-da06-4863-a599-9bdbdcc0da81)
+
 
 ## Contributing
 
