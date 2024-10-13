@@ -1,0 +1,75 @@
+.currency-exchange-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.currency-select {
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+.currency-select:hover,
+.currency-select:focus {
+    border-color: #40a9ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.input-field {
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.target-currencies {
+    margin-bottom: 16px;
+}
+
+.currency-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.remove-button {
+    margin-left: 8px;
+}
+
+.add-button {
+    width: 100%;
+}
+
+.exchange-button {
+    width: 100%;
+}
+
+.loading-spinner {
+    display: block;
+    margin-top: 16px;
+}
+
+.error-alert {
+    margin-top: 16px;
+}
+
+.exchange-rates {
+    margin-top: 16px;
+}
+
+.rate-tag {
+    margin-bottom: 8px;
+    background: #e6f7ff;
+    color: #1890ff;
+}

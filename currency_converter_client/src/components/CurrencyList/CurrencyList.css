@@ -1,0 +1,65 @@
+/* CurrencyList.css */
+.currency-list-container {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #e0f7fa, #2dc4ff); /* Soft gradient background */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    min-height: 100vh; /* Ensure it takes full height of the viewport */
+}
+
+
+.currency-card {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #ffffff; /* White background for card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.currency-title {
+    color: #00796b; /* Title color */
+}
+
+.currency-description {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.currency-search {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #00796b;
+}
+
+.currency-table {
+    background-color: #f7f9fa; /* Light background for table */
+}
+
+.currency-disclaimer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #777;
+}
+
+.currency-footer {
+    text-align: center;
+    background-color: #d9fdd9; /* Light green footer color */
+    color: #00796b; /* Change text color for better contrast */
+    border-top: 2px solid #00796b; /* Optional: adds a border for separation */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Optional: Add hover effect for the footer */
+.currency-footer:hover {
+    background-color: #c1f0c1; /* Slightly darker shade on hover */
+}
+
