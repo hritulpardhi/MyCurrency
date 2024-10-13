@@ -1,7 +1,9 @@
 # My Currency Converter
 
-This repository contains the Currency Converter project, which includes a Django backend and a React frontend. Postman collection for your reference is pushed as well in the repository.
-Note: On the First hit, the data will be fetched from the API, if the data is not present in db. After the API call is successful, post which the data will be fetched from db. (Refer to the screenshots below)
+This repository contains the Currency Converter project, which includes a Django backend and a React frontend. 
+Postman collection for your reference is pushed as well in the repository.
+Update the settings.py with your API key for the project to work properly.
+Note: On the First hit, the data will be fetched from the API, if the data is not present in DB. If the API call is successful, then the data will be fetched from DB for future calls. (Refer to the screenshots below)
 
 ## Table of Contents
 
