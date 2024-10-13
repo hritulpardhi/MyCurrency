@@ -1,0 +1,30 @@
+[
+    {
+        "model": "core.Providers",
+        "pk": 1,
+        "fields": {
+            "created_at": "2024-10-13T18:34:06.836017Z",
+            "updated_at": "2024-10-13T18:34:06.836017Z",
+            "deleted_at": null,
+            "provider_name": "CurrencyBeacon",
+            "provider_url": "https://api.currencybeacon.com/v1/",
+            "is_active": true,
+            "credentials" : {"api-key":"SA16vrijWJfqB5e2aznzkdNnh7oaOg6g"},
+            "priority" : 1
+        }
+    },
+    {
+        "model": "core.Providers",
+        "pk": 2,
+        "fields": {
+            "created_at": "2024-10-13T18:34:25.335858Z",
+            "updated_at": "2024-10-13T18:34:25.335858Z",
+            "deleted_at": null,
+            "provider_name": "Mock",
+            "provider_url": "https://google.com/v1/",
+            "is_active": true,
+            "credentials" : {"api-key":"abc"},
+            "priority" : 2
+        }
+    }
+]

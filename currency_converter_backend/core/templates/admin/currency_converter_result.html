@@ -1,0 +1,23 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<h1>Currency Converter Results</h1>
+<p>Exchange rates for {{ source_currency }}:</p>
+<table>
+    <thead>
+        <tr>
+            <th>Target Currency</th>
+            <th>Exchange Rate</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for currency, rate in rates.items %}
+        <tr>
+            <td>{{ currency }}</td>
+            <td>{{ rate }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<a href="{% url 'admin:currency-converter' %}">Convert Again</a>
+{% endblock %}

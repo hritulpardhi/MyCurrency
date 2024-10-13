@@ -1,0 +1,35 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.2.0
+    hooks:
+      - id: trailing-whitespace
+        files: \.py$
+        exclude: .*migrations/|.*settings/|.*__init__.py$|.*settings.py$|.*asgi.py$|.*wsgi.py$|^manage.py$
+      - id: end-of-file-fixer
+        files: \.py$
+        exclude: .*migrations/|.*settings/|.*__init__.py$|.*settings.py$|.*asgi.py$|.*wsgi.py$|^manage.py$
+      - id: check-added-large-files
+        files: \.py$
+        exclude: .*migrations/|.*settings/|.*__init__.py$|.*settings.py$|.*asgi.py$|.*wsgi.py$|^manage.py$
+      - id: check-ast
+  - repo: https://github.com/psf/black
+    rev: 24.4.2
+    hooks:
+      - id: black
+        args: ['--line-length=250']
+        files: \.py$
+        exclude: .*migrations/|.*settings/|.*__init__.py$|.*settings.py$|.*asgi.py$|.*wsgi.py$|^manage.py$
+  - repo: https://github.com/pre-commit/mirrors-isort
+    rev: 'v5.10.1'
+    hooks:
+      - id: isort
+        args: ['--line-length=250', '--skip', 'migrations/']
+        files: \.py$
+        exclude: .*migrations/|.*settings/|.*__init__.py$|.*settings.py$|.*asgi.py$|.*wsgi.py$|^manage.py$
+  - repo: https://github.com/myint/autoflake
+    rev: v1.4
+    hooks:
+      - id: autoflake
+        args: [--remove-all-unused-imports, --remove-unused-variables, --in-place, --recursive]
+        files: \.py$
+        exclude: .*migrations/|.*settings/|.*__init__.py$|.*settings.py$|.*asgi.py$|.*wsgi.py$|^manage.py$
