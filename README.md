@@ -5,6 +5,7 @@
 - Generate your API key from this website - https://currencybeacon.com/login
 - Update the settings.py with your API key, and Database Config for the project to work properly.
 - Note: On the First hit, the data will be fetched from the API, if the data is not present in DB. If the API call is successful, then the data will be fetched from DB for future calls. (Refer to the screenshots below)
+- For the currencies you want to load historical data for, open that specific currency entry in django admin or shell and update the load historical data flag to true. so when the next time management command runs, the data will be fetched for that currency as well. 
   
 ## Table of Contents
 
