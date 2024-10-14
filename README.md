@@ -22,7 +22,7 @@
 
 - **Backend**: Django, Django REST Framework
 - **Frontend**: React, Axios
-- **Database**: SQLite (or specify your database)
+- **Database**: SQLite
 - **Other Tools**: Node.js, npm
 
 ## Getting Started
