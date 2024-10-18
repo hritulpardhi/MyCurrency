@@ -5,7 +5,25 @@
 - Generate your API key from this website - https://currencybeacon.com/login
 - Update the settings.py with your API key, and Database Config for the project to work properly.
 - Note: On the First hit, the data will be fetched from the API, if the data is not present in DB. If the API call is successful, then the data will be fetched from DB for future calls. (Refer to the screenshots below)
-- For the currencies you want to load historical data for, open that specific currency entry in django admin or shell and update the load historical data flag to true. so when the next time management command runs, the data will be fetched for that currency as well. 
+- For the currencies you want to load historical data for, open that specific currency entry in django admin or shell and update the load historical data flag to true. so when the next time management command runs, the data will be fetched for that currency as well.
+
+# UI Screenshots :
+1. Currency List:
+   ![image](https://github.com/user-attachments/assets/fe763024-3cba-4de6-95cc-8a5e4d9ea50c)
+2. Multiple Currency Exchange:
+   ![image](https://github.com/user-attachments/assets/9abc1436-9d29-4ff6-ad21-27d035c9ddf4)
+3. Single Currency Chart:
+   ![image](https://github.com/user-attachments/assets/ea0e7968-fb89-4da5-b2c4-8ccbb4aef92c)
+4. Multiple Currency Chart (Fully interactive, can zoom, download the graph, turn on/off the legends, etc.):
+   ![image](https://github.com/user-attachments/assets/4e9430d3-63d9-4251-ac64-43c37b95798c)
+5. Django Admin:
+   ![image](https://github.com/user-attachments/assets/724cf968-90db-4e3b-b197-1b73173bcdea)
+6. Django Admin - Currency Exchange Rate:
+   ![image](https://github.com/user-attachments/assets/f0641ee7-bcb3-4ec2-90ba-2d825eef65b6)
+7. Django Admin - Currency:
+   ![image](https://github.com/user-attachments/assets/5f9fd20b-8eb0-4847-8cea-cd5359d77b84)
+8. Django Admin - Providers:
+   ![image](https://github.com/user-attachments/assets/d05e67ef-f83d-4b7c-bb33-335494a5c778)
   
 ## Table of Contents
 
@@ -116,24 +134,6 @@ Ensure that your frontend is correctly configured to make API calls to your Djan
 
 
 *Note: Replace with actual API endpoints and methods relevant to your project.*
-
-UI Screenshots :
-1. Currency List:
-   ![image](https://github.com/user-attachments/assets/fe763024-3cba-4de6-95cc-8a5e4d9ea50c)
-2. Multiple Currency Exchange:
-   ![image](https://github.com/user-attachments/assets/9abc1436-9d29-4ff6-ad21-27d035c9ddf4)
-3. Single Currency Chart:
-   ![image](https://github.com/user-attachments/assets/ea0e7968-fb89-4da5-b2c4-8ccbb4aef92c)
-4. Multiple Currency Chart (Fully interactive, can zoom, download the graph, turn on/off the legends, etc.):
-   ![image](https://github.com/user-attachments/assets/4e9430d3-63d9-4251-ac64-43c37b95798c)
-5. Django Admin:
-   ![image](https://github.com/user-attachments/assets/724cf968-90db-4e3b-b197-1b73173bcdea)
-6. Django Admin - Currency Exchange Rate:
-   ![image](https://github.com/user-attachments/assets/f0641ee7-bcb3-4ec2-90ba-2d825eef65b6)
-7. Django Admin - Currency:
-   ![image](https://github.com/user-attachments/assets/5f9fd20b-8eb0-4847-8cea-cd5359d77b84)
-8. Django Admin - Providers:
-   ![image](https://github.com/user-attachments/assets/d05e67ef-f83d-4b7c-bb33-335494a5c778)
 
 
 ## Contributing
